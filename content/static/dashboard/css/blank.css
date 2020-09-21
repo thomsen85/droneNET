@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root {
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #222222;
+    --bg-secondary: #3d3d3d;
+    --bg-tertiary: #8E0000;
+
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+}
+
+header {
+    width: 100vw;
+    height: 6rem;
+    background-color: var(--bg-secondary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--text-secondary);
+    font-size: 3rem;
+    text-shadow: 0.3rem 0.3rem  #222222;
+    letter-spacing: 0.5rem;
+}
+
+main {
+    flex: 1 1 auto;
+
+    padding: 1rem;
+    background-color: var(--bg-primary);
+}
+
+.navbar {
+    height: ;
+}
