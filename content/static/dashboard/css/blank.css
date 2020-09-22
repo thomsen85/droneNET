@@ -7,7 +7,10 @@
     --text-secondary: #ececec;
     --bg-primary: #222222;
     --bg-secondary: #3d3d3d;
-    --bg-tertiary: #8E0000;
+    --bg-tertiary: #c23939;
+
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -40,7 +43,10 @@ h1 {
 
 main {
     flex: 1 1 auto;
-
     padding: 1rem;
     background-color: var(--bg-primary);
+
+    display:
 }
+
+.locations
