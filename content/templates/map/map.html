@@ -1,0 +1,13 @@
+{% extends "dashboard/blank.html" %}
+
+{% block head %}
+{% load static %}
+    <link rel="stylesheet" href="{% static "map/css/map.css"%}">
+{% endblock %}
+
+{% block main %}
+    <div class="pic_container">
+        <div class="info_panel"></div>
+        <img src="{% static "map/pictures/Stormworks_map.PNG"%}" alt="">
+    </div>
+{% endblock %}

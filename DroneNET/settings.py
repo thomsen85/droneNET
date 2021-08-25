@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     # my own
 
     'apps.dashboard',
-    'apps.map',
     'apps.droneManager',
 ]
 

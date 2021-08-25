@@ -16,11 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from apps.dashboard.views import home_screen
-from apps.droneManager.views import drone, overview
+from apps.droneManager.views import drone, drone_data, overview, s_map
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_screen),
     path('drone/<str:id>', drone),
     path('overview/', overview),
+    path('drone-data/<str:id>', drone_data),
+    path('map/', s_map)
 ]

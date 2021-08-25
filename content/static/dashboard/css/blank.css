@@ -39,14 +39,11 @@ h1 {
     font-size: 3rem;
     text-shadow: 0.3rem 0.3rem  #222222;
     letter-spacing: 0.5rem;
+    cursor: pointer;
 }
 
 main {
     flex: 1 1 auto;
     padding: 1rem;
     background-color: var(--bg-primary);
-
-    display:
 }
-
-.locations

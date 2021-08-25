@@ -1,0 +1,91 @@
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.13rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid var(--bg-tertiary);
+}
+
+.card {
+    position: relative;
+    border: 5px solid var(--bg-tertiary);
+    background-color: var(--bg-secondary);
+    border-radius: 15%;
+    width: 25rem;
+    height: 30rem;
+    text-align: center;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+span {
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    color: var(--text-secondary);
+
+}
+
+#task {
+    margin-top: 1rem;
+    grid-column: 1/3;
+}
+
+button {
+    position: absolute;
+    background-color: var(--bg-tertiary);
+    border: 5px solid var(--bg-tertiary);
+    border-radius: 30%;
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
+    bottom: 1rem;
+    color: var(--text-secondary);
+    text-shadow: 2px 2px var(--bg-secondary);
+    letter-spacing: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: var(--bg-secondary);
+    border: 5px solid var(--bg-tertiary);
+    box-decoration-break: none;
+}
+
+button:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.add_card {
+    width: 25rem;
+    height: 30rem;
+    text-justify: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+svg {
+    fill: var(--text-secondary);
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+
+svg:hover {
+    fill: var(--bg-tertiary);
+}
